@@ -1,0 +1,42 @@
+<view class="return" style="height:{{statusbar}}px"></view>
+<view class="return" style="height:{{hanggao}}px"></view>
+<!-- 返回上一页 -->
+<view class="return" style="height:{{jiaonangheight}}px" bindtap="previous">
+  <image src="../img/return.png" bindtap="previous"></image>
+  <view class="title">{{textURl}}</view>
+</view>
+<view class="img">
+  <image src="../img/JXBJJ.jpg"></image>
+</view>
+<!-- 微信 -->
+<view class="wx">
+   <view>微信号</view>
+   <view>luankong1143</view>
+</view>
+<view class="wx">
+   <view>上课时间</view>
+   <view>详情</view>
+</view>
+<!--设施 -->
+<view class="facility">
+  <view class="title">
+    <text>设施</text>
+  </view>
+  <view class="frame">
+    <view wx:for="{{facility}}" class="trialb" >
+      <view><image src="{{item.imageurl}}"></image></view>
+      <view><text>{{item.name}}</text></view>
+   </view>
+  </view>
+</view>
+<!-- 会馆环境 -->
+<view class="environment">
+  <view class="title">
+    <text>会馆环境</text>
+  </view>
+  <view class="frame">
+    <view wx:for="{{}}" class="trialb" >
+      <view><image src="{{}}"></image></view>
+   </view>
+  </view>
+</view>

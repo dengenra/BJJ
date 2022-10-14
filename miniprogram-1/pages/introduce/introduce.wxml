@@ -1,0 +1,4 @@
+<view wx:for="{{introduce}}" wx:key="id" class="introduce">
+  <image src="{{item.imageUrl}}"></image>
+  <text>{{item.texturl}}</text>
+</view>

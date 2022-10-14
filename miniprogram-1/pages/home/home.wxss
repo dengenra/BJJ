@@ -1,0 +1,194 @@
+page {
+  background-color: ghostwhite;
+}
+swiper{
+  height: 350rpx;
+} 
+swiper image{
+  width: 100%;
+  height: 150%;
+}
+.return{
+  width: 100%;
+}
+.hui{
+  width: 100%;
+  height: 20rpx;
+  background-color: rgb(243, 243, 243);
+  margin:40rpx 0;
+}
+.navigation{
+  padding-top: 20rpx;
+  display: flex;
+  justify-content:space-around;
+}
+.navigation .head{
+  width: 120rpx;
+  height: 120rpx;
+  margin-left: 30rpx;
+  border-radius: 50%;
+  overflow:hidden;
+}
+.navigation .head image{
+  width: 100%;
+  height: 100%;
+}
+.navigation .title{
+  width: 320rpx;
+  height: 100rpx;
+  margin-left: 70rpx;
+}
+.navigation .title .hours{
+  width: 82%;
+  margin-top: 8rpx;
+  padding-left: 10rpx;
+  font-size: 10px;
+  color: white;
+  background-color: tomato;
+  border-radius: 20rpx;
+}
+.navigation .particulars{
+  width: 140rpx;
+  height: 100rpx;
+  font-size: 35rpx;
+  color: gray;
+  text-align: right;
+}
+.navigation .particulars image{
+  width: 30%;
+  height: 30%;
+  
+}
+.icon .icon_img {
+   width: 150rpx;
+   height: 150rpx;
+}
+.icon .icon_img image{
+  width: 100%;
+  height: 100%;
+}
+.contact{
+  display: flex;
+  justify-content:space-around;
+  margin-top: 10rpx;
+}
+.contact .phone image{
+  width: 50rpx;
+  height: 50rpx; 
+}
+.contact .map{
+  display: flex;
+  justify-content:space-around;
+}
+.contact .map image{
+  width: 60rpx;
+  height: 60rpx; 
+}
+.trial{
+  width: 100%;
+  height: 450rpx;
+}
+.trial .title{
+  font-size: 50rpx;
+  margin: 20rpx 40rpx;
+}
+.trial .frame{
+  width: 100%;
+  height: 400rpx; 
+  display: flex;
+  justify-content:space-around;
+
+}
+.trial .frame .trialb{
+  width: 310rpx;
+  height: 330rpx; 
+  border: 1rpx solid gainsboro;
+  border-top: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.trial .frame .trialb image{
+  width: 280rpx;
+  height: 200rpx; 
+  margin-top: 10rpx;
+  margin-left: 15rpx;
+}
+.trial .frame .trialb text{
+   margin-left: 15rpx;
+}
+.trial .frame .trialb .red{ 
+  width: 63%;
+  color: red;
+  margin-left: 15rpx;
+  border-radius:30rpx;
+}
+.member{
+  margin: auto;  
+}
+.member .title{
+  font-size: 50rpx;
+  margin-left: 50rpx;
+}
+
+.member .member_bottom .kuang{
+  width: 85%;
+  margin: 0 auto;
+  border-bottom: 1rpx solid gainsboro;
+}
+.member .member_bottom .member_img{
+  width: 300rpx;
+  height: 200rpx;
+  margin:  50rpx 0;
+  display: inline-block;
+  vertical-align:top;
+}
+.member .member_bottom .member_img image{
+  width: 100%;
+  height: 100%;
+}
+.member .member_bottom .member_frame{
+  width: 200rpx;
+  height: 200rpx;
+  display: inline-block;
+  vertical-align:top;
+  margin-top: 30rpx;
+  margin-left: 40rpx;
+}
+.member .member_bottom .member_frame .red{
+  color: red;
+}
+.member .member_bottom .member_frame .size{
+  font-size: 50rpx;
+}
+.coach{
+  width: 100%;
+  height: 450rpx;
+}
+.coach .title{
+  font-size: 50rpx;
+  margin: 20rpx 40rpx;
+}
+.coach .frame{
+  width: 100%;
+  height: 400rpx; 
+  margin-top: 30rpx;
+
+}
+.coach .frame .trialb{
+  width: 260rpx;
+  height: 280rpx; 
+
+  margin-left: 50rpx;
+  border: 1rpx solid gainsboro;
+  border-top: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.coach .frame .trialb image{
+  width: 140rpx;
+  height: 140rpx;
+  margin:  45rpx 0 0 60rpx;
+  border-radius: 50%;
+  overflow:hidden;  
+}
+.coach .frame .trialb text{
+margin-left: 65rpx;
+}

@@ -1,0 +1,67 @@
+.top1{
+  width: 100%;
+  height: 30px;
+}
+.return {
+  width: 100%;
+  height: 80rpx;
+}
+.return image{
+  width: 8%;
+  height: 60rpx;
+  display: inline-block
+}
+.return .title{
+  display: inline-block;
+  font-size: 40rpx;
+  vertical-align:top;
+}
+.img{
+  width: 100%;
+  height: 400rpx;
+  display: flex;
+  justify-content: center;
+}
+.img image{
+  width: 60%;
+  height: 100%;
+}
+.wx{
+  width: 90%;
+  height: 100rpx;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30rpx;
+}
+
+.facility{
+  width: 100%;
+  height: 300rpx;
+  margin-left: 40rpx;
+}
+.facility .title{
+  font-size: 50rpx;
+}
+.facility .frame{
+  width: 100%;
+  height: 200rpx; 
+  margin-top: 30rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.facility .frame .trialb{
+  width: 260rpx;
+  height: 180rpx; 
+}
+.facility .frame .trialb image{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  overflow:hidden;  
+}
+.environment{
+  width: 100%;
+  height: 300rpx;
+  font-size: 50rpx;
+  margin-left: 40rpx;
+}

@@ -1,0 +1,27 @@
+<view class="top"></view>
+<view wx:for="{{coachid}}" wx:key="id" class="return">
+  <image src="../img/return.png" bindtap="previous"></image>
+  <view class="title">{{item.name}}</view>
+</view>
+
+<view class="frame">
+  <view wx:for="{{coachid}}" wx:key="id" class="title">
+    <view></view>
+    <text>馆长</text>
+    <image src="{{item.imageUrl}}"></image>
+  </view> 
+  <view wx:for="{{coachid}}" wx:key="id" class="body">
+     <view>{{item.introduce1}}</view>
+     <view>{{item.introduce2}}</view>
+     <view>{{item.introduce3}}</view>
+  </view>
+  <view wx:for="{{coachid}}" wx:key="id" class="title">
+    <view></view>
+    <text>概况</text>
+    <image src="{{item.imageUrl}}"></image>
+  </view> 
+  <view wx:for="{{coachid}}" wx:key="id" class="body">
+     <view>{{item.honor}}</view>
+     <view style="white-space:pre-wrap;">{{item.honor2}}</view>
+  </view>
+</view>

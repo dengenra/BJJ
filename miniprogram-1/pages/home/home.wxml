@@ -1,0 +1,83 @@
+<!-- 轮播图 -->
+<swiper  indicator-dots autoplay interval="2000" circular>
+   <swiper-item wx:for="{{swiperimg}}" wx:key="id">
+     <image src="{{item.imageUrl}}"></image>
+   </swiper-item>
+</swiper>
+<!-- 导航栏 -->
+<view class="navigation">
+  <view class="head">
+    <image src="../img/JXBJJ.jpg"></image>
+  </view>
+  
+  <view class="title">
+     <view>JXBJJ 巴西柔术</view>
+     <view class="hours">营业时间 18:00 ~ 21:00</view>
+  </view>
+  <view class="particulars" bindtap="details">详情<image src="../img/particulars.png"></image></view>
+  <!-- <view class="xiangqi"></view> -->
+</view>
+<!-- 图标 -->
+<!-- <view class="icon">
+  <view class="icon_img">
+    <image src="../img/a1.jpg"></image>
+  </view>
+</view> -->
+<!-- 联系方式 -->
+<view class="contact">
+  <view class="map" bindtap="navigate">
+    <image src="../img/map.png"></image>
+    <view><text>浙江省嘉兴市西南湖生态公园</text></view>
+  </view>
+  <view class="phone" bindtap="phone">
+    <image src="../img/dianhua.png"></image>
+  </view>
+</view>
+
+<view class="hui"></view>
+<!-- 免费试课 -->
+<view class="trial">
+  <view class="title">
+    <text>免费试课 </text>
+  </view>
+<view class="frame">
+  <view wx:for="{{trial}}" wx:key="id" class="trialb" bindtap="kantie" data-id="{{item.id}}" data-imageUrl="{{item.imageUrl}}" data-textURl="{{item.textURl}}"  >
+    <image src="{{item.imageUrl}}"></image>
+    <text>{{item.textURl}}</text><br/>
+    <view class="red">
+      ￥0  体验价
+    </view>
+   </view>
+</view>
+
+</view>
+<view class="hui"></view>
+<!-- 会员卡 -->
+<view class="member">
+  <view class="title">
+    <text>会员卡 </text>
+  </view>
+  <view wx:for="{{member}}" wx:if="{{item.id<2}}"wx:key="id" class="member_bottom" bindtap="member" data-id="{{item.id}}" data-imageUrl="{{item.imageUrl}}" data-textURl="{{item.textURl}}" data-price="{{item.price}}" data-particulars="{{item.particulars}}">
+  <view  class="kuang">
+     <view class="member_img">
+       <image src="{{item.imageUrl}}"></image>
+     </view>
+    <view class="member_frame">
+       <text class="size">{{item.textURl}}\n\n</text>
+       <text class="red">￥{{item.price}}</text>
+    </view>
+  </view>
+  </view>
+</view>
+<!-- 教练 -->
+<view class="coach">
+  <view class="title">
+    <text>教练</text>
+  </view>
+  <view class="frame">
+    <view wx:for="{{coach}}" wx:key="id" class="trialb" bindtap="coach" data-id="{{item.id}}" >
+     <view class=""><image src="{{item.imageUrl}}"></image></view>
+    <text>{{item.name}}</text><br/>
+   </view>
+  </view>
+</view>

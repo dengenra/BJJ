@@ -1,0 +1,8 @@
+.introduce{
+  margin: 40rpx;
+  color: slategray;
+}
+.introduce image{
+  width: 100%;
+  height: 450rpx;
+}

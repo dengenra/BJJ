@@ -1,0 +1,33 @@
+<view class="top1"></view>
+<!-- 返回上一页 -->
+<view class="return">
+  <image src="../img/return.png" bindtap="previous"></image>
+  <view class="title">{{textURl}}</view>
+</view>
+<!-- 图片 -->
+<view class="top">
+   <image src="{{imageUrl}}"></image>
+</view>
+<!-- 标题 -->
+<view class="theme">{{textURl}}</view>
+<view class="price">
+<text class="price1">￥{{price}}</text>
+
+</view>
+<view class="hui"></view>
+<!-- 详细内容 -->
+<view class="particulars">
+  <view class="frame">
+    <view>课程范围:</view>
+    <view>团体课</view>
+  </view>
+  <view class="frame">
+     <view>课程详情</view>
+     <view>{{particulars}}</view>
+  </view>
+   
+</view>
+<view class="bottom"></view>
+<view class="di">
+    <text>详情请联系馆长</text>
+</view> 
